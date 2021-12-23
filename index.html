@@ -13,7 +13,9 @@
 </head>
 <body>
   <div class="container">
-    <div class="weather-app">
+    <div class="weather-app-wrapper">
+     <div class="weather-app">
+      <div class="overview">
     <h1>
         Bali, Indonesia
     </h1>
@@ -25,12 +27,18 @@
        Cloudy
      </li>
     </ul>
+       </div>
     <div class="row">
      <div class="col-6">
+       <div class="cloudyfix weather-temperature">
         <img src="https://ssl.gstatic.com/onebox/weather/64/cloudy.png" 
         alt="cloudy"
+        class="float-left"
         />
-        23°C | °F     
+        <span class="float-left">
+            <strong>23</strong><span class="units">°C | <a href="#">°F </a></span>    
+        </span> 
+       </div>
      </div>
      <div class="col-6">
      <ul>
@@ -46,14 +54,15 @@
      </ul>
       </div>
      </div>
-    <small>
+    </div>  
+     <small>
      <a href="https://github.com/enya-trillin/weather-scanner" target="_blank">Open-source code</a>
      by 
      <a href="https://www.lifeinarpeggio.com/blog/nyali-interview-local-soul-rnb-musicians-singapore" target="_blank">
          Enya Lim
         </a>
-    </small>
-    </div>    
+     </small>
+    </div>  
    </div>
 <script src="src/app.js"></script>
 </body>
