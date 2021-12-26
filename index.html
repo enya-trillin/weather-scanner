@@ -47,7 +47,9 @@
         class="float-left"
         />
         <span class="float-left">
-            <strong id="temperature"></strong><span class="units"><a href="#" id="celsius-link" class="active">°C</a> | 
+            <strong id="temperature"></strong>
+            <span class="units">
+                <a href="#" id="celsius-link" class="active">°C</a> | 
                 <a href="#" id="fahrenheit-link">°F </a></span>    
         </span> 
        </div>
@@ -64,8 +66,33 @@
             Wind: <span id="wind"></span> km/h
         </li>
      </ul>
+       </div>
       </div>
-     </div>
+     <div class="weather-forecast">
+      <div class="row">
+        <div class="col-2">
+          <div class+="weather-forecast-date">
+            Sun
+          </div>
+          <div>
+          <img
+          src="http://openweathermap.org/img/wn/04d@2x.png"
+          alt=""
+          width="40"
+          />
+          </div>
+          <div class="weather-forecast-temperatures">
+            <span class="weather-forecast-temperature-max">
+              31° 
+            </span> 
+            <span class="weather-forecast-temperature-min">
+              27°
+            </span>
+          </div>
+
+        </div>
+      </div>
+     </div> 
     </div>  
      <small>
      <a href="https://github.com/enya-trillin/weather-scanner" target="_blank">Open-source code</a>
