@@ -1,14 +1,20 @@
-body{
-    font-family: Arial, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    word-spacing: 2px;
 }
 
-
 h1{
-    font-size: 24px;
+    font-size: 33px;
     font-weight: 300;
     line-height: 28px;
     margin-bottom:0;
     padding-top: 10px;
+}
+
+form{
+    padding:7px;
 }
 
 ul{
@@ -24,9 +30,16 @@ li{
     font-weight: 300;
     line-height: 19px;
 }
+
 li:first-letter{
     text-transform: capitalize;
 }    
+
+small{
+    display: block;
+    padding-top: 8px;
+    padding-left: 4px;
+}
 
 a:link, a:visited,  a:hover, a:active
 {
@@ -38,10 +51,9 @@ a:link, a:visited,  a:hover, a:active
 }
 
 .weather-app{
-    padding:20px;
-    padding-left: 35px;
+    padding:25px 35px;
     border:1px solid #B4B1B5;
-    border-radius: 5px;
+    border-radius: 6px;
 }
 
 .overview{
@@ -96,5 +108,5 @@ a:link, a:visited,  a:hover, a:active
 }
 
 .weather-forecast-temperatures{
-    font-size: 13px;
+    font-size: 13.5px;
 }
